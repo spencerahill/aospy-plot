@@ -1,0 +1,14 @@
+name: test_env
+dependencies:
+  - python=2.7
+  - scipy
+  - matplotlib
+  - basemap
+  - netCDF4
+  - xarray
+  - dask
+  - pytest
+  - future
+  - pip:
+    - coveralls
+    - pytest-cov
